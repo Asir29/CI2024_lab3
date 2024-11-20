@@ -13,5 +13,5 @@ Key Components:
 -Visited Set: Prevents redundant state evaluations
 
 Suggested parameters for priority estimation:
-# N = 3, 4 only difference_from_goal is sufficient
-# N = 5 use 80% difference and 20% Manhattan distance 
+N = 3, 4 only difference_from_goal is sufficient  
+N = 5 use 80% difference and 20% Manhattan distance 
