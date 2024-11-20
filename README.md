@@ -11,3 +11,7 @@ Key Components:
 -Beam Size: Limits the number of states explored at each step, improving efficiency.  
 -Priority Queue: Keeps track of puzzle states by priority, defined as the distance from the goal.  
 -Visited Set: Prevents redundant state evaluations
+
+Suggested parameters for priority estimation:
+# N = 3, 4 only difference_from_goal is sufficient
+# N = 5 use 80% difference and 20% Manhattan distance 
